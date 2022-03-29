@@ -7,7 +7,6 @@ import { useHistory } from "react-router-dom";
 
 const AddSketch = () => {
   let history = useHistory();
-    const [sk,setSk]=useState({})
   const saveSketch = (value) => {
     let payload = {
       createdBy: localStorage.user,
