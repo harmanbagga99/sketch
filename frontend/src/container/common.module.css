@@ -1,0 +1,72 @@
+.box {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+  align-items: center;
+  border-radius: 20px;
+}
+.btn {
+  color: #fff;
+  padding: 0.7rem 5rem;
+  background-color: #69db7c;
+  border: 0;
+  border-radius: 20px;
+}
+
+.container {
+  background-color: #ccc;
+  height: 100vh;
+  padding-top: 5rem;
+}
+.tab_box {
+  padding: 0 1rem;
+}
+.edit {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 40%;
+  align-items: center;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  
+  height: 40%;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.option {
+  height: 25rem;
+  padding: 4rem 6rem !important;
+}
+.listContainer {
+  margin-top: 2rem;
+}
+.listHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.listText {
+  text-transform: capitalize;
+}
+.listBtn {
+  margin-left: 4rem;
+  width: 3rem;
+  height: 2rem;
+}
+.listItem {
+  display: inline-block;
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+.welcome{
+  font-size: 18px;
+  font-weight: 500;
+}
