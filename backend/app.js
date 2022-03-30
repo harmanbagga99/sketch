@@ -16,7 +16,6 @@ app.use(cors());
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
-//mongodb+srv://root:hsb123456@cluster0.4pfbb.mongodb.net/sketch
 moongose
   .connect("mongodb://localhost:27017/sketch", {
     useNewUrlParser: true,

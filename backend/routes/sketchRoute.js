@@ -4,7 +4,7 @@ const jwt = require("../middleware/jwt");
 
 const router = express.Router();
 
-router.post("/add", sketchContoller.addSketch);
+router.post("/add", jwt.jwtVerify, sketchContoller.addSketch);
 /**
    * @api {post} /sketch/add 
    * @apiName sketch add
